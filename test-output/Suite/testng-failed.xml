@@ -8,21 +8,21 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.AddUserTest">
+      <class name="testCases.AccountingPeriodTest">
         <methods>
+          <include name="UpdatePeriodControl"/>
           <include name="Setup"/>
-          <include name="AdduserDetails"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.AddUserTest -->
-      <class name="testCases.LeaveTest">
+      </class> <!-- testCases.AccountingPeriodTest -->
+      <class name="testCases.HomePageTest">
         <methods>
-          <include name="Test004ViewLeaveDetails"/>
+          <include name="CheckCurrencyConversion"/>
           <include name="Setup"/>
-          <include name="Test003LeaveComment"/>
+          <include name="VerifyHomePageLogin"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.LeaveTest -->
+      </class> <!-- testCases.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

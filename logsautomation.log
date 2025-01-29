@@ -268,3 +268,95 @@
 21:28:18.513 [main] INFO  testCases.LeaveTest - log in user
 21:28:18.590 [main] INFO  testCases.LeaveTest - user password successful
 21:28:20.014 [main] INFO  testCases.LeaveTest - ORM App login success
+21:36:49.783 [main] INFO  testCases.AddUserTest - log in user
+21:36:49.859 [main] INFO  testCases.AddUserTest - user password successful
+21:36:50.993 [main] INFO  testCases.AddUserTest - ORM App login success
+21:37:28.364 [main] INFO  testCases.LeaveTest - log in user
+21:37:28.433 [main] INFO  testCases.LeaveTest - user password successful
+21:37:29.533 [main] INFO  testCases.LeaveTest - ORM App login success
+21:49:26.476 [main] INFO  testCases.AddUserTest - log in user
+21:49:26.550 [main] INFO  testCases.AddUserTest - user password successful
+21:49:27.942 [main] INFO  testCases.AddUserTest - ORM App login success
+22:04:55.050 [main] INFO  testCases.AddUserTest - log in user
+22:04:55.121 [main] INFO  testCases.AddUserTest - user password successful
+22:04:55.197 [main] INFO  testCases.AddUserTest - ORM App login success
+22:07:47.528 [main] INFO  testCases.AddUserTest - log in user
+22:07:47.603 [main] INFO  testCases.AddUserTest - user password successful
+22:07:47.676 [main] INFO  testCases.AddUserTest - ORM App login success
+22:12:39.472 [main] INFO  testCases.AddUserTest - log in user
+22:12:39.557 [main] INFO  testCases.AddUserTest - user password successful
+22:13:05.350 [main] INFO  testCases.AddUserTest - ORM App login success
+22:15:53.097 [main] INFO  testCases.AddUserTest - log in user
+22:15:53.179 [main] INFO  testCases.AddUserTest - user password successful
+22:16:00.365 [main] INFO  testCases.AddUserTest - ORM App login success
+17:37:13.906 [main] INFO  testCases.LoginProduction - log in user
+17:37:19.830 [main] INFO  testCases.LoginProduction - user password successful
+17:43:30.268 [main] INFO  testCases.LoginProduction - log in user
+17:44:50.516 [main] INFO  testCases.LoginProduction - user password successful
+17:49:22.822 [main] INFO  testCases.LoginProduction - log in user
+17:49:53.026 [main] INFO  testCases.LoginProduction - user password successful
+17:50:53.151 [main] INFO  testCases.LoginProduction - CPAS App login success
+14:53:37.992 [main] INFO  testCases.AccountingPeriodTest - log in user
+14:53:58.200 [main] INFO  testCases.AccountingPeriodTest - user password successful
+14:54:48.306 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+15:13:14.990 [main] INFO  testCases.AccountingPeriodTest - log in user
+15:13:35.179 [main] INFO  testCases.AccountingPeriodTest - user password successful
+15:14:25.298 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+15:24:05.196 [main] INFO  testCases.AccountingPeriodTest - log in user
+15:24:25.400 [main] INFO  testCases.AccountingPeriodTest - user password successful
+15:25:15.520 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+15:45:40.659 [main] INFO  testCases.AccountingPeriodTest - log in user
+15:46:00.857 [main] INFO  testCases.AccountingPeriodTest - user password successful
+15:46:50.979 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+16:07:01.639 [main] INFO  testCases.AccountingPeriodTest - log in user
+16:07:21.888 [main] INFO  testCases.AccountingPeriodTest - user password successful
+16:08:12.008 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+21:41:03.003 [main] INFO  testCases.AccountingPeriodTest - log in user
+21:41:23.228 [main] INFO  testCases.AccountingPeriodTest - user password successful
+21:42:13.339 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+21:49:12.744 [main] INFO  testCases.AccountingPeriodTest - log in user
+21:49:33.001 [main] INFO  testCases.AccountingPeriodTest - user password successful
+21:50:23.164 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+21:57:53.687 [main] INFO  testCases.AccountingPeriodTest - log in user
+21:58:13.946 [main] INFO  testCases.AccountingPeriodTest - user password successful
+21:59:04.087 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+22:16:59.735 [main] INFO  testCases.AccountingPeriodTest - log in user
+22:17:19.958 [main] INFO  testCases.AccountingPeriodTest - user password successful
+22:18:10.063 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+22:33:50.238 [main] INFO  testCases.AccountingPeriodTest - log in user
+22:34:10.422 [main] INFO  testCases.AccountingPeriodTest - user password successful
+22:35:00.547 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+22:38:33.253 [main] INFO  testCases.AccountingPeriodTest - log in user
+22:38:53.508 [main] INFO  testCases.AccountingPeriodTest - user password successful
+22:39:43.637 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+22:49:24.378 [main] INFO  testCases.AccountingPeriodTest - log in user
+22:49:44.585 [main] INFO  testCases.AccountingPeriodTest - user password successful
+22:50:34.722 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+23:02:38.568 [main] INFO  testCases.AccountingPeriodTest - log in user
+23:02:58.765 [main] INFO  testCases.AccountingPeriodTest - user password successful
+23:03:48.886 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+23:30:11.645 [main] INFO  testCases.AccountingPeriodTest - log in user
+23:30:31.856 [main] INFO  testCases.AccountingPeriodTest - user password successful
+23:31:21.970 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+23:45:22.637 [main] INFO  testCases.AccountingPeriodTest - log in user
+23:45:42.827 [main] INFO  testCases.AccountingPeriodTest - user password successful
+23:46:32.943 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+20:11:04.323 [main] INFO  testCases.HomePageTest - log in user
+20:11:24.646 [main] INFO  testCases.HomePageTest - user password successful
+20:12:14.830 [main] INFO  testCases.HomePageTest - CPAS App login success
+20:18:31.265 [main] INFO  testCases.HomePageTest - log in user
+20:18:51.595 [main] INFO  testCases.HomePageTest - user password successful
+20:19:41.752 [main] INFO  testCases.HomePageTest - CPAS App login success
+20:22:06.960 [main] INFO  testCases.HomePageTest - log in user
+20:22:27.324 [main] INFO  testCases.HomePageTest - user password successful
+20:23:17.480 [main] INFO  testCases.HomePageTest - CPAS App login success
+15:05:41.397 [main] INFO  testCases.AccountingPeriodTest - log in user
+15:06:01.623 [main] INFO  testCases.AccountingPeriodTest - user password successful
+15:06:51.743 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+15:07:27.984 [main] INFO  testCases.HomePageTest - log in user
+15:08:33.471 [main] INFO  testCases.AccountingPeriodTest - log in user
+15:08:53.685 [main] INFO  testCases.AccountingPeriodTest - user password successful
+15:09:43.809 [main] INFO  testCases.AccountingPeriodTest - CPAS App login success
+15:11:48.266 [main] INFO  testCases.HomePageTest - log in user
+15:12:08.499 [main] INFO  testCases.HomePageTest - user password successful
+15:12:58.607 [main] INFO  testCases.HomePageTest - CPAS App login success

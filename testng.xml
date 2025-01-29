@@ -8,10 +8,10 @@
 	<parameter name="os" value="Windows"></parameter>
 	<parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="testCases.AddUserTest"/>
-      <!--class name="testCases.TC006_LoginDDT"/-->
-            
-      <class name="testCases.LeaveTest"/>
+     <!--class name="testCases.LoginProduction"-->
+     <class name="testCases.AccountingPeriodTest"/>
+     <class name="testCases.HomePageTest"></class>     
+      <!--class name="testCases.LeaveTest"/-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

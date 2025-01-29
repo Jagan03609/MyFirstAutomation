@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 0.504 s <<< FAILURE! -- in TestSuite
-testCases.AddUserTest.Setup -- Time elapsed: 0.332 s <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 0.498 s <<< FAILURE! -- in TestSuite
+testCases.AddUserTest.Setup -- Time elapsed: 0.324 s <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'browser' is required by BeforeClass on method Setup but has not been marked @Optional or defined
@@ -36,7 +36,7 @@ Parameter 'browser' is required by BeforeClass on method Setup but has not been 
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testCases.LeaveTest.Setup -- Time elapsed: 0.004 s <<< FAILURE!
+testCases.LeaveTest.Setup -- Time elapsed: 0.005 s <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'browser' is required by BeforeClass on method Setup but has not been marked @Optional or defined

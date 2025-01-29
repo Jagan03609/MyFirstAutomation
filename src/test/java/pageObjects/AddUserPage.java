@@ -13,9 +13,9 @@ public AddUserPage(WebDriver driver) {
 @FindBy(xpath="//span[text()='Admin']")
 WebElement btnAdmin;
 
-@FindBy(xpath="(//div[text()='-- Select --'])[1]")
+@FindBy(xpath="(//div[@class='oxd-select-wrapper'])[1]")
 WebElement RoleType;
-@FindBy(xpath="//div[text()='Admin']")
+@FindBy(xpath="/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]")
 WebElement ClickAdmin;
 
 @FindBy(xpath="//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button")
@@ -62,14 +62,16 @@ public void setbtnAdd() throws InterruptedException {
 	Thread.sleep(2000);
 }
 
-public void setRoletye() {
+public void setRoletye() throws InterruptedException {
 	RoleType.click();
+	Thread.sleep(3000);
 	ClickAdmin.click();
 }
 
 
-public void setRolestatus() {
+public void setRolestatus() throws InterruptedException {
 	Rolestatus.click();
+	Thread.sleep(3000);
 	ClickEnable.click();
 }
 

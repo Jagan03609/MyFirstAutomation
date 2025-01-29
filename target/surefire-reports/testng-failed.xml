@@ -3,21 +3,21 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="testCases.AddUserTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="AdduserDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.AddUserTest -->
       <class name="testCases.LeaveTest">
         <methods>
           <include name="Test004ViewLeaveDetails"/>
           <include name="Setup"/>
-          <include name="tearDown"/>
           <include name="Test003LeaveComment"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.LeaveTest -->
-      <class name="testCases.AddUserTest">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="AdduserDetails"/>
-        </methods>
-      </class> <!-- testCases.AddUserTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

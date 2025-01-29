@@ -1,11 +1,13 @@
 testCases\LeaveTest.class
 pageObjects\LeavePage.class
+pageObjects\AccountingPeriodPage.class
 Utilities\ExcelUtility.class
 pageObjects\DashBoardPage.class
-testCases\BaseClass.class
+testCases\AccountingPeriodTest.class
+testCases\Test_003_Search.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
-testCases\VerifyDashboard_002.class
+testCases\LoginProduction.class
 pageObjects\AddUserPage.class
 testCases\AddUserTest.class
 TestBase\BaseClass.class

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.LeaveTest">
+      <class name="testCases.AccountingPeriodTest">
         <methods>
-          <include name="Test004ViewLeaveDetails"/>
+          <include name="UpdatePeriodControl"/>
           <include name="Setup"/>
           <include name="tearDown"/>
-          <include name="Test003LeaveComment"/>
         </methods>
-      </class> <!-- testCases.LeaveTest -->
+      </class> <!-- testCases.AccountingPeriodTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

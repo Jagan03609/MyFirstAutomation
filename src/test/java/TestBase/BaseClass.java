@@ -29,7 +29,7 @@ public class BaseClass {
 			
 			@BeforeClass()
 			@Parameters({"browser","os"})
-			public void Setup(String browser,String os) throws IOException {
+			public void Setup(String browser,String os) throws IOException, InterruptedException {
 				FileReader file=new FileReader(".//src//test//resources//config.properties");
 				p=new Properties();
 				p.load(file);
@@ -51,16 +51,27 @@ public class BaseClass {
 			
 			LoginPage lp=new LoginPage(driver);
 			lp.setName(p.getProperty("username"));
+			Thread.sleep(2000);
 			logger.info("log in user");
+			lp.setSubmit();
+			Thread.sleep(20000);
 			lp.setpassword(p.getProperty("password"));
 			logger.info("user password successful");
+			Thread.sleep(10000);
 			lp.setLogin();
-			logger.info("ORM App login success");
+			Thread.sleep(40000);
+			logger.info("CPAS App login success");
+			lp.setdatasourceID();
+			Thread.sleep(5000);
+			lp.setProduction(p.getProperty("production"));
+			Thread.sleep(15000);
+			lp.setOk();
+			Thread.sleep(25000);
 			}
 			
 			@AfterClass
 			public void tearDown() {
-				driver.quit();
+				//driver.quit();
 			}
 			
 			public String Randomstring() {

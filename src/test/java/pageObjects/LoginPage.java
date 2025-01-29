@@ -9,18 +9,35 @@ public LoginPage(WebDriver driver){
 	super(driver);
 	
 }
+
+
+
 @FindBy(xpath="//input[@name='username']")
 WebElement txtName;
 
-@FindBy(xpath="//input[@name='password']")
+@FindBy(xpath="//input[@type='submit']")
+WebElement txtSubmit;
+
+
+@FindBy(xpath="//input[@type='password']")
 WebElement txtPassword;
 
-@FindBy(xpath="//button[@type='submit']")
+@FindBy(xpath="//input[@type='submit']")
 WebElement btnLogin;
+
+@FindBy(xpath="//input[@name='DataSourceID']")
+WebElement dataSourceID;
+
+
+@FindBy(xpath="//span[text()='OK']")
+WebElement Ok;
 
 
 public void setName(String name) {
 	txtName.sendKeys(name);
+}
+public void setSubmit() {
+	txtSubmit.click();
 }
 public void setpassword(String pwd) {
 	txtPassword.sendKeys(pwd);
@@ -28,4 +45,15 @@ public void setpassword(String pwd) {
 public void setLogin() {
 	btnLogin.click();
 }
+public void setdatasourceID() {
+	dataSourceID.click();
+}
+public void setProduction(String prodName) {
+	dataSourceID.sendKeys(prodName);
+}
+
+public void setOk() {
+	Ok.click();
+}
+
 }
